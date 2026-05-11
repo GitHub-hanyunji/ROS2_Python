@@ -20,14 +20,14 @@ def generate_launch_description():
         #sub 노드 1
         Node(
             package='rclpy_project1',
-            namespace='rclpy_psub2',
+            namespace='rclpy_psub3',
             executable='sub',
             name='proj1_subscriber',
         ),
         # sub 노드 2
         Node(
             package='rclpy_project1',
-            namespace='rclpy_psub2',
+            namespace='rclpy_psub4',
             executable='sub',
             name='proj1_subscriber',
         ),
